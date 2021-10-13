@@ -44,4 +44,5 @@
 # ssh-keygen -t rsa -b 4096 -C "bersek123@gmail.com"
 
 # что бы вход наушников работал
-sudo apt-get install -y pavucontrol
+sudo echo "options snd-hda-intel position fix=1" >> /etc/modprobe.d/alsa-base.conf
+sudo echo "options snd-hda-intel model=,dell-headset-multi" >> /etc/modprobe.d/alsa-base.conf
