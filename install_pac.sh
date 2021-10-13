@@ -25,6 +25,7 @@
 # sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
 # sudo apt update -y
 # sudo apt install -y docker-ce
+# sudo chmod 666 /var/run/docker.sock
 # sudo usermod -aG docker ${USER}
 
 # установка драйвера тачпаада
