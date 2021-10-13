@@ -43,6 +43,9 @@
 #genereit ssh
 # ssh-keygen -t rsa -b 4096 -C "bersek123@gmail.com"
 
-# что бы вход наушников работал
-sudo echo "options snd-hda-intel position fix=1" >> /etc/modprobe.d/alsa-base.conf
-sudo echo "options snd-hda-intel model=,dell-headset-multi" >> /etc/modprobe.d/alsa-base.conf
+# что бы вход наушников работал только под рутом
+# sudo passwd root
+sudo su
+echo "options snd-hda-intel position fix=1" >> /etc/modprobe.d/alsa-base.conf
+echo "options snd-hda-intel model=,dell-headset-multi" >> /etc/modprobe.d/alsa-base.conf
+exit
