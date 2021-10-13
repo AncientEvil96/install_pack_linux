@@ -40,3 +40,8 @@
 # discord
 # sudo snap install discord
 
+#genereit ssh
+# ssh-keygen -t rsa -b 4096 -C "bersek123@gmail.com"
+
+# что бы вход наушников работал
+sudo apt-get install -y pavucontrol
