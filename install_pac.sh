@@ -12,6 +12,10 @@
 # sudo apt-get install -y git
 # sudo apt-get install -y network-manager-openvpn
 # sudo apt install -y openjdk-11-jre-headless
+# pip install --upgrade pip
+# sudo apt install python3-pip
+# sudo  apt install python3.8-venv
+# sudo apt install net-tools
 
 ## sublime
 ## sudo apt install -y dirmngr gnupg apt-transport-https ca-certificates software-properties-common
@@ -63,6 +67,3 @@
 # sudo chmod 644 /etc/apt/trusted.gpg.d/scalasbt-release.gpg
 # sudo apt-get update
 # sudo apt-get install sbt
-
-#net-tools
-# sudo apt install net-tools
