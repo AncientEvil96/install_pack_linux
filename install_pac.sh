@@ -14,7 +14,7 @@
 # sudo apt install -y openjdk-11-jre-headless
 # pip install --upgrade pip
 # sudo apt install python3-pip
-# sudo  apt install python3.8-venv
+# sudo apt install python3.8-venv
 # sudo apt install net-tools
 
 ## sublime
